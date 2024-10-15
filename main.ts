@@ -20,7 +20,9 @@ input.onButtonPressed(Button.B, function () {
             basic.showNumber(1)
             basic.pause(1000)
             time = 0
+            basic.showNumber(0)
             music.play(music.stringPlayable("G A G A F G A F ", 300), music.PlaybackMode.UntilDone)
+            times_repeat = 0
         }
     }
 })
